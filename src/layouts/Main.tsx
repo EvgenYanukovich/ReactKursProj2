@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <>
             <Header />
-            <main>
+            <main className="container mx-auto px-14">
                 <Outlet />
             </main>
             <Footer />

@@ -1,9 +1,5 @@
 @import './fonts.css';
-
-/* Tailwind директивы */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './reset.css';
 
 /* Пользовательские стили */
 :root {
