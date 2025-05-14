@@ -1,5 +1,20 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import './fonts.css';
 
-/* Пользовательские стили ниже */
+/* Tailwind директивы */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Пользовательские стили */
+:root {
+  --font-primary: 'PF Reminder Pro', sans-serif;
+  --font-secondary: 'PhantomMuff', serif;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+}
