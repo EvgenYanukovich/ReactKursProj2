@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 
 // Импортируем изображения
@@ -19,24 +19,15 @@ import cartIcon from '../../assets/images/cart.svg';
 // @ts-ignore
 import userIcon from '../../assets/images/user.svg';
 
-const Header = () => {
-    const [darkMode, setDarkMode] = useState(false);
-    
+interface HeaderProps {
+    darkMode: boolean;
+    toggleTheme: () => void;
+}
+
+const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
     const searchText = () => {
         console.log('Поиск');
     };
-
-    const toggleTheme = () => {
-        setDarkMode(!darkMode);
-        document.documentElement.classList.toggle('dark-mode');
-    };
-    
-    // Применяем состояние темы при загрузке
-    useEffect(() => {
-        if (darkMode) {
-            document.documentElement.classList.add('dark-mode');
-        }
-    }, []);
 
     return (
         <header className={`w-full shadow-sm px-14 ${darkMode ? 'bg-darkgray text-white' : 'bg-white text-dark'}`}>
@@ -44,7 +35,7 @@ const Header = () => {
             <div className={`container mx-auto px-14 py-4 flex justify-between items-center ${darkMode ? 'bg-darkgray' : ''}`}>
                 {/* Левая часть: логотип */}
                 <Link to="/" className="flex items-center mr-10">
-                    <img src={logo} alt="Fauna.by" className="h-14" />
+                    <img src={logo} alt="Fauna.by" className="h-14 min-h-24 min-w-64" />
                 </Link>
 
                 {/* Центральная часть: поиск */}
@@ -80,7 +71,7 @@ const Header = () => {
             </div>
 
             {/* Навигационное меню */}
-            <div className={`container mx-auto px-14 flex justify-between items-center ${darkMode ? 'bg-darkgray' : ''}`}>
+            <div className={`container mx-auto px-14 py-4 flex justify-between items-center ${darkMode ? 'bg-darkgray' : ''}`}>
                 <nav className="flex-1">
                     <ul className="flex justify-start">
                         <li>
