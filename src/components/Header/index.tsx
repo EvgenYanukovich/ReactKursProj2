@@ -44,7 +44,7 @@ const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
                         <input
                             type="text"
                             placeholder="Поиск"
-                            className={`w-full h-12 pl-6 pr-14 text-lg ${darkMode ? 'border border-primary bg-darkgray text-white' : 'border border-dark bg-white text-dark'} focus:outline-none`}
+                            className={`w-full h-12 pl-6 pr-14 text-lg ${darkMode ? 'border border-primary bg-darkgray text-white' : 'bg-white border border-dark text-dark'}`}
                         />
                         <button 
                             className="absolute right-0 top-0 h-full bg-primary px-5 flex items-center justify-center hover:bg-opacity-80"
@@ -75,25 +75,25 @@ const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
                 <nav className="flex-1">
                     <ul className="flex justify-start">
                         <li>
-                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Кошкам</Link>
+                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Кошкам</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-8 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Собакам</Link>
+                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Собакам</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-8 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Рыбам</Link>
+                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Рыбам</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-8 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Грызунам</Link>
+                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Грызунам</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-8 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Птицам</Link>
+                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Птицам</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-8 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Ветаптека</Link>
+                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Ветаптека</Link>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">От паразитов</Link>
+                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">От паразитов</Link>
                         </li>
                     </ul>
                 </nav>

@@ -13,7 +13,7 @@ const Main = () => {
     return (
         <>
             <Header darkMode={darkMode} toggleTheme={toggleTheme} />
-            <main className={`mx-auto px-14 ${darkMode ? 'bg-black text-white' : 'bg-white text-dark'} min-h-screen`}>
+            <main className={`mx-auto px-14 py-16 ${darkMode ? 'bg-black text-white' : 'bg-white text-dark'}`}>
                 <Outlet />
             </main>
             <Footer darkMode={darkMode} />
