@@ -1,0 +1,929 @@
+[
+    {
+        "id": 1,
+        "name": "Royal Canin Junior для щенков",
+        "description": "Премиальный сухой корм для щенков всех пород возрастом до 12 месяцев",
+        "category": "Собакам",
+        "brand": "Royal Canin",
+        "age": "Для взрослых",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 5,
+        "isNew": 0,
+        "count": [5, 8, 6],
+        "heft": ["800г", "3кг", "10кг"],
+        "price": ["580,00 р.", "1750,00 р.", "4250,00 р."],
+        "review": [
+            {
+                "userId": 15,
+                "name": "Олег Собакин",
+                "text": "Отличный корм для моего лабрадора. Щенок активный, шерсть блестит!",
+                "avatar": "/src/assets/images/usersphoto/15",
+                "score": "5"
+            },
+            {
+                "userId": 16,
+                "name": "Ирина Щенкова",
+                "text": "Корм отличного качества, собака растет здоровой и крепкой",
+                "avatar": "",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/dog1.png",
+            "/src/assets/images/cards/dog2.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Royal Canin для котят",
+        "description": "Сухой корм для котят до 12 месяцев, с высоким содержанием белка и витаминов для здорового роста",
+        "category": "Кошкам",
+        "brand": "Royal Canin",
+        "age": "Для малышей",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 10,
+        "isNew": 0,
+        "count": [12, 15, 8],
+        "heft": ["400г", "2кг", "4кг"],
+        "price": ["245,00 р.", "1150,00 р.", "2100,00 р."],
+        "review": [
+            {
+                "userId": 1,
+                "name": "Анна Котова",
+                "text": "Отличный корм для моего котенка. Шерсть стала блестящей, активность повысилась!",
+                "avatar": "/src/assets/images/usersphoto/1",
+                "score": "5"
+            },
+            {
+                "userId": 2,
+                "name": "Марина Антонова",
+                "text": "Наш малыш кушает с удовольствием, нет проблем с пищеварением. Довольны покупкой!",
+                "avatar": "/src/assets/images/usersphoto/2",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/1.png",
+            "/src/assets/images/cards/2.png",
+            "/src/assets/images/cards/3.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Purina ONE для стерилизованных кошек",
+        "description": "Сухой корм для стерилизованных кошек и кастрированных котов с индейкой и злаками",
+        "category": "Кошкам",
+        "brand": "Purina ONE",
+        "age": "Для взрослых",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 15,
+        "isNew": 0,
+        "count": [20, 12],
+        "heft": ["750г", "1,5кг"],
+        "price": ["310,00 р.", "590,00 р."],
+        "review": [
+            {
+                "userId": 3,
+                "name": "Алексей Котолюбов",
+                "text": "Моя стерилизованная кошка охотно ест этот корм, не толстеет, отличная форма",
+                "avatar": "",
+                "score": "4"
+            },
+            {
+                "userId": 4,
+                "name": "Елена Воробьева",
+                "text": "Удобная упаковка, хороший состав, кошка довольна, я тоже",
+                "avatar": "/src/assets/images/usersphoto/4",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/5.png",
+            "/src/assets/images/cards/6.png"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Hill's Science Plan для взрослых кошек с чувствительным пищеварением",
+        "description": "Премиальный сухой корм с курицей для кошек с чувствительным пищеварением, поддерживает здоровье кишечника",
+        "category": "Кошкам",
+        "brand": "Hill's",
+        "age": "Для взрослых",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 0,
+        "isNew": 1,
+        "count": [8, 10],
+        "heft": ["1,5кг", "3кг"],
+        "price": ["890,00 р.", "1690,00 р."],
+        "review": [
+            {
+                "userId": 5,
+                "name": "Ирина Кошкина",
+                "text": "Мой кот с аллергией отлично переносит этот корм, наконец-то нашли что подходит!",
+                "avatar": "/src/assets/images/usersphoto/5",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/7.png",
+            "/src/assets/images/cards/8.png",
+            "/src/assets/images/cards/9.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Когтеточка-столбик для кошек",
+        "description": "Напольная когтеточка с игрушкой на пружине, обтянута джутом, устойчивое основание",
+        "category": "Кошкам",
+        "brand": "Зооник",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Аксессуары",
+        "discount": 25,
+        "isNew": 0,
+        "count": [5],
+        "heft": ["45см"],
+        "price": ["750,00 р."],
+        "review": [
+            {
+                "userId": 6,
+                "name": "Владимир Петров",
+                "text": "Хорошая когтеточка, кот доволен и мебель цела. Спасибо!",
+                "avatar": "/src/assets/images/usersphoto/6",
+                "score": "4"
+            },
+            {
+                "userId": 7,
+                "name": "Татьяна Муркина",
+                "text": "Отличное качество, прослужила уже полгода и как новая",
+                "avatar": "/src/assets/images/usersphoto/7",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/10.png",
+            "/src/assets/images/cards/11.png"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Игрушка-дразнилка для кошек",
+        "description": "Интерактивная игрушка с перьями на веревке, стимулирует охотничий инстинкт",
+        "category": "Кошкам",
+        "brand": "Triol",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Игрушки",
+        "discount": 0,
+        "isNew": 1,
+        "count": [18],
+        "heft": ["40см"],
+        "price": ["220,00 р."],
+        "review": [
+            {
+                "userId": 8,
+                "name": "Сергей Иванов",
+                "text": "Кошка играет с этой игрушкой часами, теперь у неё есть развлечение",
+                "avatar": "",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/12.png",
+            "/src/assets/images/cards/13.png"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Шампунь для котят",
+        "description": "Нежный шампунь без слез, специально разработан для чувствительной кожи котят",
+        "category": "Кошкам",
+        "brand": "8in1",
+        "age": "Для пожилых",
+        "packagingType": "Флакон",
+        "appointment": "Гигиена",
+        "discount": 5,
+        "isNew": 0,
+        "count": [10],
+        "heft": ["250мл"],
+        "price": ["345,00 р."],
+        "review": [
+            {
+                "userId": 9,
+                "name": "Марина Кошкина",
+                "text": "Отличный шампунь, не щиплет глаза, хорошо пенится и смывается",
+                "avatar": "/src/assets/images/usersphoto/9",
+                "score": "5"
+            },
+            {
+                "userId": 10,
+                "name": "Дмитрий Самойлов",
+                "text": "Приятный запах, шерсть после мытья мягкая и блестящая",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/14.png",
+            "/src/assets/images/cards/15.png"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Туалет-лоток с бортиком для кошек",
+        "description": "Просторный лоток с высоким бортиком, предотвращает разбрасывание наполнителя",
+        "category": "Кошкам",
+        "brand": "Savic",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Гигиена",
+        "discount": 0,
+        "isNew": 0,
+        "count": [7],
+        "heft": ["50x40x15см"],
+        "price": ["450,00 р."],
+        "review": [
+            {
+                "userId": 11,
+                "name": "Ольга Персидская",
+                "text": "Хороший лоток, бортики высокие, наполнитель не разлетается по полу",
+                "avatar": "/src/assets/images/usersphoto/11",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/16.png",
+            "/src/assets/images/cards/17.png"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Лежак-домик для кошек",
+        "description": "Уютный домик из мягкого плюша с подушкой, создает ощущение защищенности",
+        "category": "Кошкам",
+        "brand": "Ferplast",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Лежаки",
+        "discount": 20,
+        "isNew": 1,
+        "count": [3],
+        "heft": ["40x35x30см"],
+        "price": ["1250,00 р."],
+        "review": [
+            {
+                "userId": 12,
+                "name": "Николай Котов",
+                "text": "Качественный домик, кошка сразу облюбовала его, материал прочный",
+                "avatar": "",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/18.png",
+            "/src/assets/images/cards/19.png"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Паста для выведения шерсти у кошек",
+        "description": "Специальная паста для предотвращения образования комков шерсти в желудке",
+        "category": "Кошкам",
+        "brand": "Beaphar",
+        "age": "Для взрослых",
+        "packagingType": "Туба",
+        "appointment": "Здоровье",
+        "discount": 0,
+        "isNew": 0,
+        "count": [15],
+        "heft": ["100г"],
+        "price": ["390,00 р."],
+        "review": [
+            {
+                "userId": 13,
+                "name": "Екатерина Мурлыкина",
+                "text": "Отлично помогает, кошка сама слизывает с лапы, проблем с шерстью больше нет",
+                "avatar": "/src/assets/images/usersphoto/13",
+                "score": "5"
+            },
+            {
+                "userId": 14,
+                "name": "Андрей Котолюб",
+                "text": "Удобная упаковка, эффективное средство, рекомендую при линьке",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/20.png",
+            "/src/assets/images/cards/21.png"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Hill's Science Plan для активных собак",
+        "description": "Сухой корм для активных взрослых собак, обеспечивает здоровье суставов и мышц",
+        "category": "Собакам",
+        "brand": "Hill's",
+        "age": "Для взрослых",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 0,
+        "isNew": 0,
+        "count": [3, 7],
+        "heft": ["2,5кг", "12кг"],
+        "price": ["1250,00 р.", "4500,00 р."],
+        "review": [
+            {
+                "userId": 17,
+                "name": "Антон Бегунов",
+                "text": "Моя собака стала гораздо активнее на этом корме, мышцы окрепли! Рекомендую.",
+                "avatar": "/src/assets/images/usersphoto/17",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/dog3",
+            "/src/assets/images/cards/dog4"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Поводок-рулетка Flexi",
+        "description": "Качественный поводок-рулетка для средних и крупных пород собак до 50 кг",
+        "category": "Собакам",
+        "brand": "Flexi",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Аксессуары",
+        "discount": 15,
+        "isNew": 0,
+        "count": [9],
+        "heft": ["5м"],
+        "price": ["1450,00 р."],
+        "review": [
+            {
+                "userId": 18,
+                "name": "Елена Выгулкина",
+                "text": "Очень удобная рулетка, хорошо фиксируется и не тянет руку даже при резких рывках крупного пса.",
+                "avatar": "/src/assets/images/usersphoto/18",
+                "score": "5"
+            },
+            {
+                "userId": 19,
+                "name": "Сергей Кинолог",
+                "text": "Надёжный механизм, прочный корпус, удобная ручка. Пользуюсь уже более года.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/dog5.png",
+            "/src/assets/images/cards/dog6.png"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Шампунь для длинношёрстных собак",
+        "description": "Специальный шампунь для длинношёрстных собак, предотвращает спутывание шерсти",
+        "category": "Собакам",
+        "brand": "Trixie",
+        "age": "Для всех возрастов",
+        "packagingType": "Флакон",
+        "appointment": "Гигиена",
+        "discount": 0,
+        "isNew": 1,
+        "count": [12],
+        "heft": ["300мл"],
+        "price": ["480,00 р."],
+        "review": [
+            {
+                "userId": 20,
+                "name": "Наталья Длинношерсткина",
+                "text": "Отличный шампунь, шерсть моей колли стала мягкой и блестящей, легко расчесывается.",
+                "avatar": "/src/assets/images/usersphoto/20",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/dog7.png"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Корм для золотых рыбок Tetra Goldfish",
+        "description": "Полноценный корм в хлопьях для всех видов золотых рыбок",
+        "category": "Рыбам",
+        "brand": "Tetra",
+        "age": "Для всех возрастов",
+        "packagingType": "Банка",
+        "appointment": "Корм",
+        "discount": 10,
+        "isNew": 0,
+        "count": [15, 7],
+        "heft": ["100г", "250г"],
+        "price": ["180,00 р.", "360,00 р."],
+        "review": [
+            {
+                "userId": 21,
+                "name": "Николай Аквариумов",
+                "text": "Отличный корм, рыбки с удовольствием едят, вода остается чистой.",
+                "avatar": "/src/assets/images/usersphoto/21",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/fish1.png",
+            "/src/assets/images/cards/fish2.png"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Фильтр внутренний Aquael Fan Mini",
+        "description": "Компактный внутренний фильтр для аквариумов объемом до 60 литров",
+        "category": "Рыбам",
+        "brand": "Aquael",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Оборудование",
+        "discount": 0,
+        "isNew": 1,
+        "count": [9],
+        "heft": ["1 шт"],
+        "price": ["850,00 р."],
+        "review": [
+            {
+                "userId": 22,
+                "name": "Анна Рыбкина",
+                "text": "Тихий, компактный, отлично фильтрует. Вода в аквариуме чистая и прозрачная.",
+                "avatar": "/src/assets/images/usersphoto/22",
+                "score": "5"
+            },
+            {
+                "userId": 23,
+                "name": "Дмитрий Аквариумист",
+                "text": "Прост в обслуживании, губки для фильтра недорогие и доступные.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/fish3.png",
+            "/src/assets/images/cards/fish4.png"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Искусственное растение для аквариума",
+        "description": "Реалистичное искусственное растение для украшения аквариума",
+        "category": "Рыбам",
+        "brand": "Aqua Flora",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Декор",
+        "discount": 20,
+        "isNew": 0,
+        "count": [12],
+        "heft": ["25см"],
+        "price": ["350,00 р."],
+        "review": [
+            {
+                "userId": 24,
+                "name": "Екатерина Рыбкина",
+                "text": "Очень красивое растение, выглядит как настоящее. Рыбки любят прятаться в нем!",
+                "avatar": "/src/assets/images/usersphoto/24",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/fish5.png",
+            "/src/assets/images/cards/fish6.png"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Термометр для аквариума",
+        "description": "Точный цифровой термометр для контроля температуры воды в аквариуме",
+        "category": "Рыбам",
+        "brand": "Aquatop",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Оборудование",
+        "discount": 0,
+        "isNew": 0,
+        "count": [8],
+        "heft": ["1 шт"],
+        "price": ["250,00 р."],
+        "review": [
+            {
+                "userId": 25,
+                "name": "Сергей Водоёмов",
+                "text": "Точный, удобный, хорошо крепится к стенке аквариума. Показания совпадают с контрольным термометром.",
+                "avatar": "",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/fish7.png"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Водоросли для аквариума",
+        "description": "Натуральное растение для аквариума, обогащает воду кислородом",
+        "category": "Рыбам",
+        "brand": "Aqua Flora",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Растения",
+        "discount": 15,
+        "isNew": 1,
+        "count": [6],
+        "heft": ["1 пучок"],
+        "price": ["280,00 р."],
+        "review": [
+            {
+                "userId": 26,
+                "name": "Алексей Аквариумист",
+                "text": "Растение быстро прижилось, хорошо растёт. Рыбки довольны!",
+                "avatar": "/src/assets/images/usersphoto/26",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/fish8.png",
+            "/src/assets/images/cards/fish9.png"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Корм для хомяков Vitakraft Menu Vital",
+        "description": "Полноценный корм для хомяков с добавлением витаминов и минералов",
+        "category": "Грызунам",
+        "brand": "Vitakraft",
+        "age": "Для всех возрастов",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 5,
+        "isNew": 0,
+        "count": [14],
+        "heft": ["500г"],
+        "price": ["320,00 р."],
+        "review": [
+            {
+                "userId": 27,
+                "name": "Марина Хомякова",
+                "text": "Мой хомяк в восторге от этого корма, шерсть блестит, энергии на весь день!",
+                "avatar": "/src/assets/images/usersphoto/27",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/rodent1.png",
+            "/src/assets/images/cards/rodent2.png"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Клетка для морских свинок",
+        "description": "Просторная клетка для морских свинок с удобным поддоном",
+        "category": "Грызунам",
+        "brand": "Ferplast",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Жилье",
+        "discount": 0,
+        "isNew": 1,
+        "count": [5],
+        "heft": ["80x50x35см"],
+        "price": ["2850,00 р."],
+        "review": [
+            {
+                "userId": 28,
+                "name": "Алексей Свинкин",
+                "text": "Отличная клетка, просторная, легко моется. Мои свинки довольны!",
+                "avatar": "/src/assets/images/usersphoto/28",
+                "score": "5"
+            },
+            {
+                "userId": 29,
+                "name": "Екатерина Зверькова",
+                "text": "Удобная модель, но для двух взрослых свинок может быть маловато.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/rodent3.png",
+            "/src/assets/images/cards/rodent4.png"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Наполнитель для грызунов",
+        "description": "Натуральный наполнитель для клеток грызунов, хорошо впитывает запахи",
+        "category": "Грызунам",
+        "brand": "Chipsi",
+        "age": "Для всех возрастов",
+        "packagingType": "Пакет",
+        "appointment": "Гигиена",
+        "discount": 15,
+        "isNew": 0,
+        "count": [8],
+        "heft": ["3,2кг"],
+        "price": ["380,00 р."],
+        "review": [
+            {
+                "userId": 30,
+                "name": "Ирина Крыскина",
+                "text": "Отличный наполнитель, запахи поглощает хорошо, менять нужно нечасто.",
+                "avatar": "/src/assets/images/usersphoto/30",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/rodent5.png"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Корм для волнистых попугаев Vitakraft",
+        "description": "Полноценный корм для волнистых попугаев с фруктами и орехами",
+        "category": "Птицам",
+        "brand": "Vitakraft",
+        "age": "Для всех возрастов",
+        "packagingType": "Пакет",
+        "appointment": "Корм",
+        "discount": 0,
+        "isNew": 1,
+        "count": [12],
+        "heft": ["500г"],
+        "price": ["290,00 р."],
+        "review": [
+            {
+                "userId": 31,
+                "name": "Анна Птичкина",
+                "text": "Мой попугай в восторге от этого корма! Оперение яркое, активность повысилась.",
+                "avatar": "/src/assets/images/usersphoto/31",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/bird1.png",
+            "/src/assets/images/cards/bird2.png"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Клетка для канареек",
+        "description": "Просторная клетка для мелких певчих птиц с жердочками и игрушками",
+        "category": "Птицам",
+        "brand": "Ferplast",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Жилье",
+        "discount": 10,
+        "isNew": 0,
+        "count": [7],
+        "heft": ["60x40x65см"],
+        "price": ["3200,00 р."],
+        "review": [
+            {
+                "userId": 32,
+                "name": "Дмитрий Птицевод",
+                "text": "Отличная клетка, канарейки веселые, хорошо поют. Удобно ухаживать, чистить.",
+                "avatar": "/src/assets/images/usersphoto/32",
+                "score": "5"
+            },
+            {
+                "userId": 33,
+                "name": "Марина Канарейкина",
+                "text": "Качественная клетка, удобная дверца, мои птички довольны.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/bird3.png",
+            "/src/assets/images/cards/bird4.png"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Минеральный камень для птиц",
+        "description": "Натуральный минеральный камень для попугаев и других птиц, источник кальция",
+        "category": "Птицам",
+        "brand": "JR Farm",
+        "age": "Для всех возрастов",
+        "packagingType": "Штучно",
+        "appointment": "Добавки",
+        "discount": 0,
+        "isNew": 0,
+        "count": [20],
+        "heft": ["50г"],
+        "price": ["120,00 р."],
+        "review": [
+            {
+                "userId": 34,
+                "name": "Елена Попугайкина",
+                "text": "Мой попугай обожает этот камень, постоянно клюет его. Перья стали более яркими!",
+                "avatar": "/src/assets/images/usersphoto/34",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/bird5.png"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Витаминный комплекс для кошек",
+        "description": "Комплекс витаминов и микроэлементов для поддержания иммунитета и здоровья кошек",
+        "category": "Ветаптека",
+        "brand": "8in1",
+        "age": "Для всех возрастов",
+        "packagingType": "Таблетки",
+        "appointment": "Витамины",
+        "discount": 15,
+        "isNew": 0,
+        "count": [10],
+        "heft": ["60 таблеток"],
+        "price": ["560,00 р."],
+        "review": [
+            {
+                "userId": 35,
+                "name": "Ирина Кошкина",
+                "text": "Моя кошка стала более активной, шерсть блестит. Отличный препарат!",
+                "avatar": "/src/assets/images/usersphoto/35",
+                "score": "5"
+            },
+            {
+                "userId": 36,
+                "name": "Николай Ветов",
+                "text": "Хорошие витамины, помогли моему питомцу восстановиться после болезни.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/vet1.png",
+            "/src/assets/images/cards/vet2.png"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Гель для суставов для собак",
+        "description": "Регенерирующий гель для суставов собак, снижает воспаление и улучшает подвижность",
+        "category": "Ветаптека",
+        "brand": "Polidex",
+        "age": "Для взрослых",
+        "packagingType": "Туба",
+        "appointment": "Суставы",
+        "discount": 0,
+        "isNew": 1,
+        "count": [8],
+        "heft": ["100г"],
+        "price": ["780,00 р."],
+        "review": [
+            {
+                "userId": 37,
+                "name": "Антон Собакин",
+                "text": "Моему старому лабрадору намного легче стало бегать после применения этого геля. Рекомендую!",
+                "avatar": "/src/assets/images/usersphoto/37",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/vet3.png"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Ушные капли для кошек и собак",
+        "description": "Лечебные капли для ухода за ушами кошек и собак, предотвращают воспаления",
+        "category": "Ветаптека",
+        "brand": "Beaphar",
+        "age": "Для всех возрастов",
+        "packagingType": "Флакон",
+        "appointment": "Уши",
+        "discount": 10,
+        "isNew": 0,
+        "count": [15],
+        "heft": ["50мл"],
+        "price": ["420,00 р."],
+        "review": [
+            {
+                "userId": 38,
+                "name": "Елена Кошколюбка",
+                "text": "Отличное средство для чистки ушей, не вызывает раздражения у моей кошки.",
+                "avatar": "/src/assets/images/usersphoto/38",
+                "score": "5"
+            },
+            {
+                "userId": 39,
+                "name": "Дмитрий Зверев",
+                "text": "Год пользуемся этими каплями для ухода за ушами собаки, очень довольны.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/vet4.png",
+            "/src/assets/images/cards/vet5.png"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Капли на холку от блох и клещей для кошек",
+        "description": "Эффективное средство от блох, клещей и других наружных паразитов для кошек",
+        "category": "От паразитов",
+        "brand": "Frontline",
+        "age": "Для взрослых",
+        "packagingType": "Пипетка",
+        "appointment": "От блох и клещей",
+        "discount": 0,
+        "isNew": 0,
+        "count": [8],
+        "heft": ["1 пипетка"],
+        "price": ["490,00 р."],
+        "review": [
+            {
+                "userId": 40,
+                "name": "Марина Кошкина",
+                "text": "Очень эффективное средство, после применения у кошки не было ни одного паразита.",
+                "avatar": "/src/assets/images/usersphoto/40",
+                "score": "5"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/para1.png",
+            "/src/assets/images/cards/para2.png"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Антигельминтные таблетки для собак",
+        "description": "Эффективное средство от внутренних паразитов для собак весом от 10 до 35 кг",
+        "category": "От паразитов",
+        "brand": "Drontal",
+        "age": "Для всех возрастов",
+        "packagingType": "Таблетки",
+        "appointment": "От глистов",
+        "discount": 10,
+        "isNew": 0,
+        "count": [6],
+        "heft": ["2 таблетки"],
+        "price": ["650,00 р."],
+        "review": [
+            {
+                "userId": 41,
+                "name": "Дмитрий Собакин",
+                "text": "Регулярно используем эти таблетки для профилактики. Псу хорошо, анализы чистые.",
+                "avatar": "/src/assets/images/usersphoto/41",
+                "score": "5"
+            },
+            {
+                "userId": 42,
+                "name": "Елена Ветеринарка",
+                "text": "Хороший препарат, рекомендую своим клиентам для профилактики 3-4 раза в год.",
+                "avatar": "",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/para3.png",
+            "/src/assets/images/cards/para4.png"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Шампунь от блох и клещей для собак",
+        "description": "Лечебный шампунь с длительным защитным эффектом против внешних паразитов",
+        "category": "От паразитов",
+        "brand": "Beaphar",
+        "age": "Для всех возрастов",
+        "packagingType": "Флакон",
+        "appointment": "От блох и клещей",
+        "discount": 15,
+        "isNew": 1,
+        "count": [5],
+        "heft": ["250мл"],
+        "price": ["520,00 р."],
+        "review": [
+            {
+                "userId": 43,
+                "name": "Ирина Собакова",
+                "text": "Хороший шампунь, хорошо пенится и отлично защищает от паразитов. Приятный запах.",
+                "avatar": "/src/assets/images/usersphoto/43",
+                "score": "4"
+            }
+        ],
+        "images": [
+            "/src/assets/images/cards/para5.png"
+        ]
+    }
+]
