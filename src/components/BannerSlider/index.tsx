@@ -39,16 +39,16 @@ const BannerSlider: React.FC<BannerSliderProps> = ({ darkMode = false }) => {
     ];
 
     return (
-        <div className="banner-slider">
+        <div className="banner-slider w-full bg-gray-100 dark:bg-gray-800 overflow-hidden">
             <Slider
                 autoplay={true}
                 autoplaySpeed={5000}
                 darkMode={darkMode}
-                className="w-full"
+                className="w-full max-w-none"
                 arrowClassName="hover:opacity-80 transition-opacity"
             >
                 {banners.map(banner => (
-                    <div key={banner.id} className="relative w-full h-[400px]">
+                    <div key={banner.id} className="relative w-full h-[600px]">
                         <div 
                             className="absolute inset-0 bg-center bg-cover bg-no-repeat"
                             style={{ 

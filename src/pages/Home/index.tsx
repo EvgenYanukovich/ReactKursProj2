@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useTheme } from '../../context/ThemeContext';
 import BannerSlider from '../../components/BannerSlider';
 import ProductSlider from '../../components/ProductSlider';
 
@@ -18,7 +19,9 @@ interface Product {
     count?: number[];
 }
 
-const Home = ({ darkMode = false }: { darkMode?: boolean }) => {
+const Home = () => {
+    // Используем контекст темы
+    const { darkMode } = useTheme();
     // Состояние для хранения данных о товарах
     const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);
     const [newProducts, setNewProducts] = useState<Product[]>([]);
@@ -59,9 +62,11 @@ const Home = ({ darkMode = false }: { darkMode?: boolean }) => {
     }, []);
 
     return (
-        <div className={`home-page ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
-            {/* Баннерный слайдер */}
-            <BannerSlider darkMode={darkMode} />
+        <div className={`home-page`}>
+            {/* Баннерный слайдер на полную ширину экрана */}
+            <section className="w-full overflow-hidden">
+                <BannerSlider darkMode={darkMode} />
+            </section>
             
             {/* Контент страницы */}
             <div className="container mx-auto px-4 py-8">

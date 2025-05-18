@@ -34,14 +34,16 @@ const Footer = ({ darkMode }: FooterProps) => {
                     {/* Левая часть с контактами */}
                     <div>
                         <h3 className="text-4xl font-bold mb-8">Контакты:</h3>
-                        <div className="flex items-center mb-4">
-                            <img src={darkMode ? phoneDarkIcon : phoneIcon} alt="Телефон" className="w-10 h-10 mr-6" />
-                            <span className="text-3xl">+375 (29) 984-81-01</span>
-                        </div>
-                        <div className="flex items-center mb-12">
-                            <img src={darkMode ? emailDarkIcon : emailIcon} alt="Email" className="w-10 h-10 mr-6" />
-                            <span className="text-3xl">example@mail.com</span>
-                        </div>
+                        <Link to="/about" className="block hover:opacity-80 transition-opacity">
+                            <div className="flex items-center mb-4">
+                                <img src={darkMode ? phoneDarkIcon : phoneIcon} alt="Телефон" className="w-10 h-10 mr-6" />
+                                <span className="text-3xl">+375 (29) 984-81-01</span>
+                            </div>
+                            <div className="flex items-center mb-12">
+                                <img src={darkMode ? emailDarkIcon : emailIcon} alt="Email" className="w-10 h-10 mr-6" />
+                                <span className="text-3xl">example@mail.com</span>
+                            </div>
+                        </Link>
                         
                         <h3 className="text-4xl font-bold mb-8">Мы в соцсетях:</h3>
                         <div className="flex space-x-6">

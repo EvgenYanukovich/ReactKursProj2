@@ -30,8 +30,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/dog1.png",
-            "/src/assets/images/cards/dog2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -65,9 +64,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/1.png",
-            "/src/assets/images/cards/2.png",
-            "/src/assets/images/cards/3.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -101,8 +98,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/5.png",
-            "/src/assets/images/cards/6.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -129,9 +125,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/7.png",
-            "/src/assets/images/cards/8.png",
-            "/src/assets/images/cards/9.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -165,8 +159,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/10.png",
-            "/src/assets/images/cards/11.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -193,8 +186,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/12.png",
-            "/src/assets/images/cards/13.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -228,8 +220,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/14.png",
-            "/src/assets/images/cards/15.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -256,8 +247,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/16.png",
-            "/src/assets/images/cards/17.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -284,8 +274,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/18.png",
-            "/src/assets/images/cards/19.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -319,8 +308,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/20.png",
-            "/src/assets/images/cards/21.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -347,8 +335,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/dog3",
-            "/src/assets/images/cards/dog4"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -382,8 +369,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/dog5.png",
-            "/src/assets/images/cards/dog6.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -410,7 +396,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/dog7.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -437,8 +423,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/fish1.png",
-            "/src/assets/images/cards/fish2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -472,8 +457,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/fish3.png",
-            "/src/assets/images/cards/fish4.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -500,8 +484,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/fish5.png",
-            "/src/assets/images/cards/fish6.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -528,7 +511,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/fish7.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -555,8 +538,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/fish8.png",
-            "/src/assets/images/cards/fish9.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -583,8 +565,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/rodent1.png",
-            "/src/assets/images/cards/rodent2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -618,8 +599,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/rodent3.png",
-            "/src/assets/images/cards/rodent4.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -646,7 +626,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/rodent5.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -673,8 +653,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/bird1.png",
-            "/src/assets/images/cards/bird2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -708,8 +687,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/bird3.png",
-            "/src/assets/images/cards/bird4.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -736,7 +714,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/bird5.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -770,8 +748,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/vet1.png",
-            "/src/assets/images/cards/vet2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -798,7 +775,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/vet3.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -832,8 +809,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/vet4.png",
-            "/src/assets/images/cards/vet5.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -860,8 +836,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/para1.png",
-            "/src/assets/images/cards/para2.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -895,8 +870,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/para3.png",
-            "/src/assets/images/cards/para4.png"
+            "/src/assets/images/cards/img1.png"
         ]
     },
     {
@@ -923,7 +897,7 @@
             }
         ],
         "images": [
-            "/src/assets/images/cards/para5.png"
+            "/src/assets/images/cards/img1.png"
         ]
     }
 ]

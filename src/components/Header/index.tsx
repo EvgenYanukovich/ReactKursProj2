@@ -1,5 +1,5 @@
-
 import { Link } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 
 // Импортируем изображения
 // @ts-ignore
@@ -25,6 +25,8 @@ interface HeaderProps {
 }
 
 const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
+    const { isAuthenticated } = useAuth();
+    
     const searchText = () => {
         console.log('Поиск');
     };
@@ -113,9 +115,15 @@ const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
                     <Link to="/cart" className={darkMode ? "text-white" : "text-primary"}>
                         <img src={cartIcon} alt="Корзина" className="w-8 h-8" />
                     </Link>
-                    <Link to="/account" className={darkMode ? "text-white" : "text-primary"}>
-                        <img src={userIcon} alt="Личный кабинет" className="w-8 h-8" />
-                    </Link>
+                    {isAuthenticated ? (
+                        <Link to="/account" className={darkMode ? "text-white" : "text-primary"}>
+                            <img src={userIcon} alt="Личный кабинет" className="w-8 h-8" />
+                        </Link>
+                    ) : (
+                        <Link to="/login" className={darkMode ? "text-white" : "text-primary"}>
+                            <img src={userIcon} alt="Войти" className="w-8 h-8" />
+                        </Link>
+                    )}
                 </div>
             </div>
         </header>
