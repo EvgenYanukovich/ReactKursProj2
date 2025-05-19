@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
+import { useState } from 'react';
 
 // Импортируем изображения
 // @ts-ignore
@@ -26,9 +27,18 @@ interface HeaderProps {
 
 const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
     const { isAuthenticated } = useAuth();
+    const navigate = useNavigate();
+    const [searchValue, setSearchValue] = useState<string>('');
     
-    const searchText = () => {
-        console.log('Поиск');
+    const handleSearch = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (searchValue.trim()) {
+            navigate(`/catalog?search=${encodeURIComponent(searchValue.trim())}`);
+        }
+    };
+    
+    const handleCategoryClick = (category: string) => {
+        navigate(`/catalog?category=${encodeURIComponent(category)}`);
     };
 
     return (
@@ -42,19 +52,21 @@ const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
 
                 {/* Центральная часть: поиск */}
                 <div className="flex-1 max-w-xl">
-                    <div className="relative">
+                    <form onSubmit={handleSearch} className="relative">
                         <input
                             type="text"
                             placeholder="Поиск"
+                            value={searchValue}
+                            onChange={(e) => setSearchValue(e.target.value)}
                             className={`w-full h-12 pl-6 pr-14 text-lg ${darkMode ? 'border border-primary bg-darkgray text-white' : 'bg-white border border-dark text-dark'}`}
                         />
                         <button 
+                            type="submit"
                             className="absolute right-0 top-0 h-full bg-primary px-5 flex items-center justify-center hover:bg-opacity-80"
-                            onClick={searchText}
                         >
                             <img src={searchIcon} alt="Поиск" className="w-6 h-6" />
                         </button>
-                    </div>
+                    </form>
                 </div>
 
                 {/* Правая часть: контакты */}
@@ -77,25 +89,25 @@ const Header = ({ darkMode, toggleTheme }: HeaderProps) => {
                 <nav className="flex-1">
                     <ul className="flex justify-start">
                         <li>
-                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Кошкам</Link>
+                            <button onClick={() => handleCategoryClick('Кошкам')} className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Кошкам</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Собакам</Link>
+                            <button onClick={() => handleCategoryClick('Собакам')} className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Собакам</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Рыбам</Link>
+                            <button onClick={() => handleCategoryClick('Рыбам')} className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Рыбам</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Грызунам</Link>
+                            <button onClick={() => handleCategoryClick('Грызунам')} className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Грызунам</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Птицам</Link>
+                            <button onClick={() => handleCategoryClick('Птицам')} className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Птицам</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Ветаптека</Link>
+                            <button onClick={() => handleCategoryClick('Ветаптека')} className="block py-4 px-9 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">Ветаптека</button>
                         </li>
                         <li>
-                            <Link to="/catalog" className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">От паразитов</Link>
+                            <button onClick={() => handleCategoryClick('От паразитов')} className="block py-4 px-10 bg-primary text-white text-xl font-medium hover:opacity-80 transition-colors">От паразитов</button>
                         </li>
                     </ul>
                 </nav>
